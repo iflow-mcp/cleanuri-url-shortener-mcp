@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/talismanic-cleanuri-url-shortener-mcp-badge.png)](https://mseep.ai/app/talismanic-cleanuri-url-shortener-mcp)
+
 # URL Shortener MCP Tool
 
 [![smithery badge](https://smithery.ai/badge/@Talismanic/cleanuri-url-shortener-mcp)](https://smithery.ai/server/@Talismanic/cleanuri-url-shortener-mcp)
