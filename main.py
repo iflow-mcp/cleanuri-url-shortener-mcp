@@ -20,7 +20,6 @@ async def shorten_url(original_url: str) -> str | None:
             print(f"An error occurred: {e}")
             return None
 
-
 @mcp.tool()
 async def shorten(original_url: str) -> str | None:
     """Shorten a URL using the cleanuri API.
@@ -33,6 +32,9 @@ async def shorten(original_url: str) -> str | None:
         return "Unable to shorten the URL."
     return shortened_url
 
-if __name__ == "__main__":
-    # Initialize and run the server
+def main():
+    """Main entry point for the MCP server."""
     mcp.run(transport='stdio')
+
+if __name__ == "__main__":
+    main()
